@@ -65,7 +65,7 @@ spec:
               readOnly: true
             - name: var-lib
               mountPath: "/var/lib"
-              readOnly: true
+              readOnly: false
             - name: procfs
               mountPath: "/host/proc"
               readOnly: true
